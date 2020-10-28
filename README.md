@@ -7,7 +7,7 @@ the submitted paper "Cayley Graphs of Semigroups Applied to
 Atom Tracking in Chemistry".
 
 The presented version has atom maps of each reaction hardcoded.
-These, have have been automatically 
+These have have been automatically 
 computed with a version of [MØD](https://cheminf.imada.sdu.dk/mod/) to be release in future
 
 ## Requirements
