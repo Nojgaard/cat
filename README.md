@@ -3,8 +3,8 @@ CAT (Cayley Atom Tracker). A python package for
 tracking atoms through chemical networks using projected Cayley graphs.
 
 The code is published as part of the supplementary material to
-the paper "Cayley Graphs of Semigroups Applied to
-Atom Tracking in Chemistry", submitted to the Journal of Computational Biology.
+the submitted paper "Cayley Graphs of Semigroups Applied to
+Atom Tracking in Chemistry".
 
 The presented version has atom maps of each reaction hardcoded.
 These, have have been automatically 
