@@ -22,4 +22,6 @@ mod -f examples/anrorc.py
 ```
 from the root folder.
 
-<img align="center" src="https://github.com/Nojgaard/cat/blob/main/figs/anrorc_network.png" />
+<span style="display:block;text-align:center">
+    ![](https://github.com/Nojgaard/cat/blob/main/figs/anrorc_network.png)
+</span>
