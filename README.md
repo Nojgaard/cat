@@ -12,7 +12,7 @@ computed with a version of [MØD](https://cheminf.imada.sdu.dk/mod/) to be relea
 
 ## Requirements
 The package depends on the sofware packages [MØD](https://cheminf.imada.sdu.dk/mod/)
-and [networkx](https://networkx.org/).
+and [NetworkX](https://networkx.org/).
 
 ## Usage
 For details on how to use the package, see the example files found in this
