@@ -11,14 +11,17 @@ from data.anrorc import dg, initmol
 # in right_map.
 transformations = [
     Transformation(0, [1, 2, 3], [4, 5, 6]),
-    Transformation(0, [4, 5, 6], [7, 8, 9]),
-    Transformation(0, [10, 11, 12], [13, 14, 15]),
-    Transformation(0, [2, 3, 16], [14, 13, 15])
+    Transformation(1, [4, 5, 6], [7, 8, 9]),
+    Transformation(1, [7, 8, 9], [10, 11, 12]),
+    Transformation(2, [10, 11, 12], [13, 14, 15]),
+    Transformation(3, [2, 3, 16], [14, 13, 15])
 ]
+
 
 # Construct ids for each nitrogen atom in the chemical network dg and
 # store the given generator set.
-gens = GeneratorSet(dg, lambda v: v.stringLabel not in ("N", "N-"))
+gens = GeneratorSet(dg, transformations=transformations,
+        fun_ignore=lambda v: v.stringLabel not in ("N", "N-"))
 
 # Specify the atoms that should be tracked.
 trace_atoms = [v for v in initmol.vertices if v.stringLabel == "N"]
